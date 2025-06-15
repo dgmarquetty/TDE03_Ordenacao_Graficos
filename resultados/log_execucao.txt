@@ -1,0 +1,300 @@
+Algoritmo: InsertionSort | Tamanho: 1000 | Tempo: 5.18ms | Trocas: 244583 | Iterações: 244583 | Seed: 0
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000 | Tempo: 9.97ms | Trocas: 246242 | Iterações: 246242 | Seed: 1
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000 | Tempo: 0.65ms | Trocas: 255379 | Iterações: 255379 | Seed: 2
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000 | Tempo: 0.59ms | Trocas: 251811 | Iterações: 251811 | Seed: 3
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000 | Tempo: 0.41ms | Trocas: 247153 | Iterações: 247153 | Seed: 4
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 10000 | Tempo: 48.10ms | Trocas: 24810298 | Iterações: 24810298 | Seed: 0
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 10000 | Tempo: 40.30ms | Trocas: 24924820 | Iterações: 24924820 | Seed: 1
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 10000 | Tempo: 54.65ms | Trocas: 24843857 | Iterações: 24843857 | Seed: 2
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 10000 | Tempo: 48.97ms | Trocas: 25038957 | Iterações: 25038957 | Seed: 3
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 10000 | Tempo: 40.67ms | Trocas: 25082593 | Iterações: 25082593 | Seed: 4
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 100000 | Tempo: 3791.37ms | Trocas: 2496291151 | Iterações: 2496291151 | Seed: 0
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 100000 | Tempo: 3717.63ms | Trocas: 2511206514 | Iterações: 2511206514 | Seed: 1
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 100000 | Tempo: 4792.47ms | Trocas: 2492536183 | Iterações: 2492536183 | Seed: 2
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 100000 | Tempo: 4545.58ms | Trocas: 2495755307 | Iterações: 2495755307 | Seed: 3
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 100000 | Tempo: 3906.34ms | Trocas: 2501256336 | Iterações: 2501256336 | Seed: 4
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 500000 | Tempo: 98436.78ms | Trocas: 62557355693 | Iterações: 62557355693 | Seed: 0
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 500000 | Tempo: 102244.75ms | Trocas: 62494429684 | Iterações: 62494429684 | Seed: 1
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 500000 | Tempo: 90236.11ms | Trocas: 62447228204 | Iterações: 62447228204 | Seed: 2
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 500000 | Tempo: 89418.48ms | Trocas: 62501284029 | Iterações: 62501284029 | Seed: 3
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 500000 | Tempo: 90219.35ms | Trocas: 62431821327 | Iterações: 62431821327 | Seed: 4
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000000 | Tempo: 357938.17ms | Trocas: 250194923180 | Iterações: 250194923180 | Seed: 0
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000000 | Tempo: 359145.53ms | Trocas: 250006517093 | Iterações: 250006517093 | Seed: 1
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000000 | Tempo: 362926.76ms | Trocas: 249847176570 | Iterações: 249847176570 | Seed: 2
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000000 | Tempo: 399225.71ms | Trocas: 249836092305 | Iterações: 249836092305 | Seed: 3
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: InsertionSort | Tamanho: 1000000 | Tempo: 362393.67ms | Trocas: 249910765467 | Iterações: 249910765467 | Seed: 4
+InsertionSort finalizado... na paz de quem dobra roupa ouvindo lo-fi.
+
+Algoritmo: MergeSort | Tamanho: 1000 | Tempo: 33.30ms | Trocas: 9976 | Iterações: 8704 | Seed: 0
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000 | Tempo: 0.48ms | Trocas: 9976 | Iterações: 8695 | Seed: 1
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000 | Tempo: 0.27ms | Trocas: 9976 | Iterações: 8727 | Seed: 2
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000 | Tempo: 0.39ms | Trocas: 9976 | Iterações: 8714 | Seed: 3
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000 | Tempo: 0.31ms | Trocas: 9976 | Iterações: 8674 | Seed: 4
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 10000 | Tempo: 3.84ms | Trocas: 133616 | Iterações: 120427 | Seed: 0
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 10000 | Tempo: 5.53ms | Trocas: 133616 | Iterações: 120364 | Seed: 1
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 10000 | Tempo: 4.58ms | Trocas: 133616 | Iterações: 120490 | Seed: 2
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 10000 | Tempo: 4.42ms | Trocas: 133616 | Iterações: 120436 | Seed: 3
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 10000 | Tempo: 5.30ms | Trocas: 133616 | Iterações: 120471 | Seed: 4
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 100000 | Tempo: 28.81ms | Trocas: 1668928 | Iterações: 1536459 | Seed: 0
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 100000 | Tempo: 50.62ms | Trocas: 1668928 | Iterações: 1536167 | Seed: 1
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 100000 | Tempo: 28.40ms | Trocas: 1668928 | Iterações: 1535996 | Seed: 2
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 100000 | Tempo: 15.41ms | Trocas: 1668928 | Iterações: 1536319 | Seed: 3
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 100000 | Tempo: 13.91ms | Trocas: 1668928 | Iterações: 1536583 | Seed: 4
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 500000 | Tempo: 79.31ms | Trocas: 9475712 | Iterações: 8837222 | Seed: 0
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 500000 | Tempo: 83.67ms | Trocas: 9475712 | Iterações: 8836679 | Seed: 1
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 500000 | Tempo: 79.69ms | Trocas: 9475712 | Iterações: 8837108 | Seed: 2
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 500000 | Tempo: 92.19ms | Trocas: 9475712 | Iterações: 8836562 | Seed: 3
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 500000 | Tempo: 86.51ms | Trocas: 9475712 | Iterações: 8837567 | Seed: 4
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000000 | Tempo: 185.55ms | Trocas: 19951424 | Iterações: 18673896 | Seed: 0
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000000 | Tempo: 174.91ms | Trocas: 19951424 | Iterações: 18674794 | Seed: 1
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000000 | Tempo: 164.46ms | Trocas: 19951424 | Iterações: 18673824 | Seed: 2
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000000 | Tempo: 148.08ms | Trocas: 19951424 | Iterações: 18673542 | Seed: 3
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: MergeSort | Tamanho: 1000000 | Tempo: 159.43ms | Trocas: 19951424 | Iterações: 18675063 | Seed: 4
+MergeSort juntou as peças como um quebra-cabeça sem faltar nenhuma.
+
+Algoritmo: QuickSort | Tamanho: 1000 | Tempo: 2.77ms | Trocas: 6178 | Iterações: 10153 | Seed: 0
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000 | Tempo: 0.17ms | Trocas: 6778 | Iterações: 11519 | Seed: 1
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000 | Tempo: 0.10ms | Trocas: 6024 | Iterações: 10543 | Seed: 2
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000 | Tempo: 0.08ms | Trocas: 6160 | Iterações: 11111 | Seed: 3
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000 | Tempo: 0.10ms | Trocas: 6474 | Iterações: 12462 | Seed: 4
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 10000 | Tempo: 0.67ms | Trocas: 81655 | Iterações: 156879 | Seed: 0
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 10000 | Tempo: 0.88ms | Trocas: 91074 | Iterações: 160097 | Seed: 1
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 10000 | Tempo: 0.95ms | Trocas: 77658 | Iterações: 152620 | Seed: 2
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 10000 | Tempo: 0.94ms | Trocas: 82722 | Iterações: 161697 | Seed: 3
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 10000 | Tempo: 0.93ms | Trocas: 82563 | Iterações: 154750 | Seed: 4
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 100000 | Tempo: 9.31ms | Trocas: 1103656 | Iterações: 1964625 | Seed: 0
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 100000 | Tempo: 8.92ms | Trocas: 1027430 | Iterações: 1925272 | Seed: 1
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 100000 | Tempo: 9.57ms | Trocas: 1021982 | Iterações: 1921202 | Seed: 2
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 100000 | Tempo: 9.52ms | Trocas: 1059958 | Iterações: 2043070 | Seed: 3
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 100000 | Tempo: 9.32ms | Trocas: 1054373 | Iterações: 2010101 | Seed: 4
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 500000 | Tempo: 63.42ms | Trocas: 6069189 | Iterações: 11385553 | Seed: 0
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 500000 | Tempo: 68.20ms | Trocas: 6120060 | Iterações: 11944752 | Seed: 1
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 500000 | Tempo: 70.76ms | Trocas: 6679145 | Iterações: 12501630 | Seed: 2
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 500000 | Tempo: 77.13ms | Trocas: 6203209 | Iterações: 11530293 | Seed: 3
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 500000 | Tempo: 60.83ms | Trocas: 5810826 | Iterações: 11757057 | Seed: 4
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000000 | Tempo: 119.71ms | Trocas: 13106167 | Iterações: 23982685 | Seed: 0
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000000 | Tempo: 114.73ms | Trocas: 12935566 | Iterações: 24426324 | Seed: 1
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000000 | Tempo: 111.08ms | Trocas: 13102381 | Iterações: 24520581 | Seed: 2
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000000 | Tempo: 110.44ms | Trocas: 13907651 | Iterações: 24822411 | Seed: 3
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: QuickSort | Tamanho: 1000000 | Tempo: 109.08ms | Trocas: 14618294 | Iterações: 25805600 | Seed: 4
+QuickSort fez jus ao nome e terminou antes mesmo da ansiedade bater.
+
+Algoritmo: CountingSort | Tamanho: 1000 | Tempo: 7.25ms | Trocas: 0 | Iterações: 2999 | Seed: 0
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000 | Tempo: 3.33ms | Trocas: 0 | Iterações: 2999 | Seed: 1
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000 | Tempo: 1.48ms | Trocas: 0 | Iterações: 2999 | Seed: 2
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000 | Tempo: 1.21ms | Trocas: 0 | Iterações: 2999 | Seed: 3
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000 | Tempo: 1.72ms | Trocas: 0 | Iterações: 2999 | Seed: 4
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 10000 | Tempo: 1.96ms | Trocas: 0 | Iterações: 29999 | Seed: 0
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 10000 | Tempo: 1.55ms | Trocas: 0 | Iterações: 29999 | Seed: 1
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 10000 | Tempo: 1.43ms | Trocas: 0 | Iterações: 29999 | Seed: 2
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 10000 | Tempo: 1.50ms | Trocas: 0 | Iterações: 29999 | Seed: 3
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 10000 | Tempo: 1.47ms | Trocas: 0 | Iterações: 29999 | Seed: 4
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 100000 | Tempo: 2.24ms | Trocas: 0 | Iterações: 299999 | Seed: 0
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 100000 | Tempo: 2.26ms | Trocas: 0 | Iterações: 299999 | Seed: 1
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 100000 | Tempo: 2.23ms | Trocas: 0 | Iterações: 299999 | Seed: 2
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 100000 | Tempo: 2.22ms | Trocas: 0 | Iterações: 299999 | Seed: 3
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 100000 | Tempo: 2.47ms | Trocas: 0 | Iterações: 299999 | Seed: 4
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 500000 | Tempo: 10.34ms | Trocas: 0 | Iterações: 1499999 | Seed: 0
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 500000 | Tempo: 6.97ms | Trocas: 0 | Iterações: 1499999 | Seed: 1
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 500000 | Tempo: 7.12ms | Trocas: 0 | Iterações: 1499999 | Seed: 2
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 500000 | Tempo: 10.62ms | Trocas: 0 | Iterações: 1499999 | Seed: 3
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 500000 | Tempo: 8.72ms | Trocas: 0 | Iterações: 1499999 | Seed: 4
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000000 | Tempo: 20.64ms | Trocas: 0 | Iterações: 2999999 | Seed: 0
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000000 | Tempo: 18.74ms | Trocas: 0 | Iterações: 2999999 | Seed: 1
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000000 | Tempo: 16.08ms | Trocas: 0 | Iterações: 2999999 | Seed: 2
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000000 | Tempo: 11.41ms | Trocas: 0 | Iterações: 2999999 | Seed: 3
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
+Algoritmo: CountingSort | Tamanho: 1000000 | Tempo: 16.55ms | Trocas: 0 | Iterações: 2999999 | Seed: 4
+CountingSort contou cada passo como quem revisa extrato bancário... com trauma.
+
