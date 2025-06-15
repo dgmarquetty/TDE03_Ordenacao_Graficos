@@ -27,15 +27,15 @@ for alg in algoritmos:
             )
             df["Algoritmo"] = alg
             dfs.append(df)
-            print(f"✅ Arquivo lido: {caminho}")
+            print(f" Arquivo lido: {caminho}")
         except Exception as e:
-            print(f"❌ Erro ao ler {caminho}: {e}")
+            print(f" Erro ao ler {caminho}: {e}")
     else:
-        print(f"⚠️ Arquivo não encontrado: {caminho}")
+        print(f" Arquivo não encontrado: {caminho}")
 
 # Verifica se algum arquivo foi carregado
 if not dfs:
-    print("❌ Nenhum dado encontrado. Verifique a pasta 'resultados'.")
+    print(" Nenhum dado encontrado. Verifique a pasta 'resultados'.")
     exit()
 
 # Junta e agrupa os dados
@@ -75,7 +75,7 @@ def gerar_grafico(y, titulo, ylabel, nome_arquivo):
     )
     plt.savefig(caminho_saida)
     print(
-        f"📈 Gráfico salvo em: {caminho_saida}"
+        f" Gráfico salvo em: {caminho_saida}"
     )
     plt.close()
 
