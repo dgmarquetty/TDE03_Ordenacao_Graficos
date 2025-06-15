@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Arquivos de saída e cache temporários (exceto os que serão entregues)
+*.tmp
+*.bak
+
+# Configurações do VS Code
+.vscode/
+
+# Ambientes virtuais Python
+venv/
+env/
+.venv/
+ENV/
+
+# Arquivos de pacotes e builds
+*.egg-info/
+dist/
+build/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup de edição
+*~
+
+# Ignorar saída do Java (builds automáticos)
+.idea/
+out/
+*.class
+*.iml
+
+# --- EXCEÇÕES para permitir CSV e PNG necessários na entrega ---
+# Permitindo graficos/ e resultados/ com arquivos .csv e .png
+!graficos/
+!graficos/*.png
+!resultados/
+!resultados/*.csv
+!log_execucao.txt
