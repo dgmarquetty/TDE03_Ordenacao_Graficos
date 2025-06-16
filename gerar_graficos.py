@@ -1,103 +1,68 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import glob
 
-# Caminhos de entrada e saída
-PASTA_CSV = "resultados"
-PASTA_SAIDA = "graficos"
+# Diretórios de entrada e saída
+diretorio_csv = 'resultados'
+diretorio_saida = 'graficos'
 
-# Lista com os algoritmos esperados
-algoritmos = [
-    "InsertionSort",
-    "MergeSort",
-    "QuickSort",
-    "CountingSort"
-]
+# Cria pasta de saída, se não existir
+os.makedirs(diretorio_saida, exist_ok=True)
 
-# Leitura dos arquivos CSV
-dfs = []
-for alg in algoritmos:
-    caminho = os.path.join(PASTA_CSV, f"{alg}.csv")
-    if os.path.exists(caminho):
-        try:
-            df = pd.read_csv(
-                caminho,
-                header=None,
-                names=["Tamanho", "Tempo_ms", "Trocas", "Iteracoes"]
-            )
-            df["Algoritmo"] = alg
-            dfs.append(df)
-            print(f" Arquivo lido: {caminho}")
-        except Exception as e:
-            print(f" Erro ao ler {caminho}: {e}")
-    else:
-        print(f" Arquivo não encontrado: {caminho}")
+# Remove gráficos antigos
+for arquivo in glob.glob(f'{diretorio_saida}/*.png'):
+    os.remove(arquivo)
 
-# Verifica se algum arquivo foi carregado
-if not dfs:
-    print(" Nenhum dado encontrado. Verifique a pasta 'resultados'.")
-    exit()
+# Carrega e calcula médias
+lista_medias = []
+for caminho in glob.glob(f'{diretorio_csv}/*.csv'):
+    algoritmo = os.path.splitext(os.path.basename(caminho))[0]
+    df = pd.read_csv(
+        caminho,
+        header=None,
+        names=['Tamanho', 'Tempo_ms', 'Trocas', 'Iteracoes']
+    )
+    df = df.apply(pd.to_numeric, errors='coerce')
+    medias = df.groupby('Tamanho', as_index=False).mean()
+    medias['Algoritmo'] = algoritmo
+    lista_medias.append(medias)
 
-# Junta e agrupa os dados
-df_total = pd.concat(dfs, ignore_index=True)
-df_grouped = df_total.groupby(["Algoritmo", "Tamanho"]).mean().reset_index()
+# Concatena todos os dados em um único DataFrame
+df_final = pd.concat(lista_medias, ignore_index=True)
+df_final = df_final.sort_values(['Algoritmo', 'Tamanho'])
 
-# Garante que a pasta de saída existe
-os.makedirs(PASTA_SAIDA, exist_ok=True)
+# Dicionário de escalas: 'linear' (None) e 'log' ('log')
+escalas = {'linear': None, 'log': 'log'}
 
+# Gera gráficos para cada métrica e cada escala
+def gerar_graficos(df, coluna, escala, tipo_escala):
+    plt.figure()
+    for alg in df['Algoritmo'].unique():
+        sub = df[df['Algoritmo'] == alg]
+        x = sub['Tamanho']
+        y = sub[coluna]
+        # Para evitar log(0) ao plotar Trocas
+        if tipo_escala == 'log' and coluna == 'Trocas':
+            y = y.replace(0, 1)
+        plt.plot(x, y, marker='o', label=alg)
 
-# Função para gerar gráficos
-def gerar_grafico(y, titulo, ylabel, nome_arquivo):
-    plt.figure(figsize=(10, 6))
-
-    for alg in algoritmos:
-        sub = df_grouped[df_grouped["Algoritmo"] == alg]
-        if not sub.empty:
-            plt.plot(
-                sub["Tamanho"],
-                sub[y],
-                marker='o',
-                label=alg
-            )
-        else:
-            print(f"⚠️ Nenhum dado encontrado para: {alg}")
-
-    plt.title(titulo)
-    plt.xlabel("Tamanho do Vetor")
-    plt.ylabel(ylabel)
+    plt.title(f'{coluna} por Algoritmo ({escala})')
+    plt.xlabel('Tamanho do Vetor')
+    plt.ylabel(coluna)
+    if tipo_escala:
+        plt.yscale(tipo_escala)
+    plt.grid(True, which='both', linestyle='--', linewidth=0.5)
     plt.legend()
-    plt.grid(True)
     plt.tight_layout()
-
-    caminho_saida = os.path.join(
-        PASTA_SAIDA,
-        nome_arquivo
-    )
-    plt.savefig(caminho_saida)
-    print(
-        f" Gráfico salvo em: {caminho_saida}"
-    )
+    nome_arquivo = f'{coluna.lower()}_{escala}.png'
+    plt.savefig(os.path.join(diretorio_saida, nome_arquivo))
     plt.close()
 
+# Loop sobre métricas e escalas
+metricas = ['Tempo_ms', 'Trocas', 'Iteracoes']
+for escala, tipo in escalas.items():
+    for metrica in metricas:
+        gerar_graficos(df_final, metrica, escala, tipo)
 
-# Gera os gráficos principais
-gerar_grafico(
-    "Tempo_ms",
-    "Tempo de Execução por Algoritmo",
-    "Tempo (ms)",
-    "tempo_execucao.png"
-)
-
-gerar_grafico(
-    "Trocas",
-    "Número de Trocas por Algoritmo",
-    "Trocas",
-    "trocas.png"
-)
-
-gerar_grafico(
-    "Iteracoes",
-    "Número de Iterações por Algoritmo",
-    "Iterações",
-    "iteracoes.png"
-)
+print(f'Gráficos gerados em: {diretorio_saida}')
