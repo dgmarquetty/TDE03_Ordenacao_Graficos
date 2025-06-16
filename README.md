@@ -133,5 +133,7 @@ O script irá:
 4. Exibir uma mensagem de confirmação no console.
 
 ---
+Link video: https://www.youtube.com/watch?v=UdE5jlvlmSI
+---
 
 **Boa análise!** 🚀
