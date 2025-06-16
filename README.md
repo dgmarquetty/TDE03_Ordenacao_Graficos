@@ -1,4 +1,4 @@
-# TDE03 – Ordenação: Análise de Desempenho
+# RELATÓRIO DE ORDENAÇÃO COM GRÁFICOS E TABELAS: Análise de Desempenho
 
 Este repositório contém os resultados de diferentes algoritmos de ordenação (InsertionSort, MergeSort, QuickSort e CountingSort) avaliados em vetores de tamanhos variados. Foi desenvolvido um script em Python (`gerar_graficos.py`) que processa os arquivos CSV de saída, calcula médias de tempo de execução, número de trocas e número de iterações, e gera gráficos em escala *linear* e *logarítmica*.
 
