@@ -7,10 +7,35 @@ Este repositório contém os resultados de diferentes algoritmos de ordenação 
 ## 1. Estrutura das Pastas
 
 ```
-├── resultados/       # CSVs de entrada (Tamanho, Tempo_ms, Trocas, Iteracoes)
-├── gerar_graficos.py # Script em Python para processamento e plotagem
-├── graficos/         # Saída: PNGs dos gráficos (linear + log)
-└── README.md         # Documentação (este arquivo)
+TDE03_Ordenacao_Graficos/
+│
+├── graficos/                    
+│   ├── iteracoes.png         
+│   ├── tempo_execucao.png       
+│   └── trocas.png                
+│
+├── resultados/                   
+│   ├── CountingSort.csv
+│   ├── InsertionSort.csv
+│   ├── MergeSort.csv
+│   └── QuickSort.csv
+│
+├── src/                       
+│   ├── algoritmos/             
+│   │   ├── CountingSort.java
+│   │   ├── InsertionSort.java
+│   │   ├── MergeSort.java
+│   │   └── QuickSort.java
+│   │
+│   ├── utils/                
+│   │   └── GeradorVetor.java
+│   │
+│   └── Main.java             
+│
+├── .gitignore               
+├── gerar_graficos.py          
+├── README.md                
+└── InsertionSort.csv        
 ```
 
 ---
